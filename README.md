@@ -940,6 +940,29 @@ result = isHorizontal ? x : y
 result = a > b ? x = c > d ? c : d : y
 ```
 
+If the Ternary operator is long and we need to break it into multiple lines, always add an open close paranthesis `()` around the line for increased clearity and better readability.
+
+**Preferred**:
+
+```swift
+let myLongValueName = 5
+result = (myLongValueName != 0
+         ? veryLongVariableNameInThisClass
+         : otherVeryLongVariableNameInThisClass)
+```
+
+**Not Preferred**:
+
+```swift
+let myLongValueName = 5
+result = (myLongValueName != 0 ? veryLongVariableNameInThisClass
+         : otherVeryLongVariableNameInThisClass)
+
+result = myLongValueName != 0
+? veryLongVariableNameInThisClass
+: otherVeryLongVariableNameInThisClass
+```
+
 
 ## Golden Path
 
