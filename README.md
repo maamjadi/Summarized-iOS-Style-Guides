@@ -27,7 +27,6 @@
   - [Optionals](#optionals)
   - [Lazy Initialization](#lazy-initialization)
   - [Type Inference](#type-inference)
-    - [Type Annotation for Empty Arrays and Dictionaries](#type-annotation-for-empty-arrays-and-dictionaries)
   - [Syntactic Sugar](#syntactic-sugar)
 - [Functions vs Methods](#functions-vs-methods)
 - [Memory Management](#memory-management)
